@@ -1,0 +1,32 @@
+{
+  "name": "phaser-template",
+  "version": "1.0.0",
+  "description": "A basic Phaser.js starter with TypeScript support and Vite",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src/**"
+  },
+  "keywords": [
+    "phaser",
+    "typescript",
+    "vite"
+  ],
+  "author": {
+    "name": "Marcel van den Bosch",
+    "email": "m.v.d.bosch@gmail.com",
+    "url": "https://github.com/zwik"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "^3.55.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
+    "eslint": "^8.27.0",
+    "typescript": "^4.8.4",
+    "vite": "^3.2.3"
+  }
+}
