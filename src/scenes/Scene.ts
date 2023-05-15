@@ -12,13 +12,11 @@ export function Scene(): Phaser.Types.Scenes.SettingsConfig | Phaser.Types.Scene
     create() {
       this.add.image(400, 300, 'sky')
 
-      const particles: Phaser.GameObjects.Particles.ParticleEmitterManager = this.add.particles('red')
-
-      const emitter: Phaser.GameObjects.Particles.ParticleEmitter = particles.createEmitter({
-          speed: 100,
-          scale: { start: 1, end: 0 },
-          blendMode: 'ADD'
-      })
+      const emitter: Phaser.GameObjects.Particles.ParticleEmitter = this.add.particles(0, 0, 'red', {
+        speed: 100,
+        blendMode: 'ADD',
+        scale: { start: 1, end: 0},
+    });
 
       const logo: Phaser.Types.Physics.Arcade.ImageWithDynamicBody = this.physics.add.image(400, 100, 'logo')
 
