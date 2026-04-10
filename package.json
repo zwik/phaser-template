@@ -27,6 +27,6 @@
     "@typescript-eslint/parser": "^8.32.1",
     "eslint": "^8.57.0",
     "typescript": "^6.0.2",
-    "vite": "^8.0.7"
+    "vite": "^8.0.8"
   }
 }
